@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+#navpart1 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+#navpart2 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+#navpart1 h3{
+    font-size: 23px;
+    font-weight: 600;
+}
+#navpart2 h4{
+    font-size: 23px;
+    font-weight: 600;
+}
+#content{
+    /* background-color: coral; */
+    margin-top: 60px;
+    padding: 40px 65px;
+}
+#content h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+#content h1{
+    margin-top: 40px;
+    font-size: 128px;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: -7px;
+}
+#case {
+    padding: 40px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+#case h5{
+    font-size: 30px;
+    font-weight: 500;
+}
+#right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+#line{
+    height: 2px;
+    width: 130px;
+    background-color: #000;
+    
+}
+#project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 65px;
+    gap: 90px;
+}
+.elem{
+    width: 50%;
+    
+}
+.elem-img{
+    height: 650px;
+    background-color: red; 
+    width: 100%;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url( https://plus.unsplash.com/premium_photo-1661375427386-64ac35086427?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FzZSUyMHN0dWR5fGVufDB8fDB8fHww);
+}
+#img2{
+    background-image: url(https://images.unsplash.com/photo-1552581234-26160f608093?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FzZSUyMHN0dWR5fGVufDB8fDB8fHww);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom i{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.bottom i:hover{
+    background-color:black;
+    color: aliceblue;
+}
