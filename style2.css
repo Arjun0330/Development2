@@ -94,6 +94,11 @@ html, body {
     width: 50%;
     
 }
+.elem1{
+    position: relative;
+    width: 650px;
+    transform: translate(110%,-100%);
+}
 .elem-img{
     height: 650px;
     background-color: red; 
